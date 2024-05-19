@@ -31,5 +31,12 @@ export const globalStyles = StyleSheet.create({
         borderRadius: 12,
         paddingHorizontal: Platform.OS === 'ios' ? 12 : 8,
         paddingVertical: Platform.OS === 'ios' ? 14 : 10,
+    },
+
+    tag: {
+        paddingHorizontal: 20,
+        paddingVertical: Platform.OS === 'ios' ? 6 : 4,
+        backgroundColor: colors.blue,
+        borderRadius: 100,
     }
 })

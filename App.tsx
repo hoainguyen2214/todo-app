@@ -1,6 +1,6 @@
 import { View, Text, StatusBar } from 'react-native'
 import React from 'react'
-import HomeScreen from './src/home/HomeScreen'
+import HomeScreen from './src/homes/HomeScreen'
 
 const App = () => {
   return (
